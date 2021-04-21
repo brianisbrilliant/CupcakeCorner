@@ -14,6 +14,7 @@
 		675CE1732630723A00CFE14D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675CE1722630723A00CFE14D /* ContentView.swift */; };
 		675CE1772630728400CFE14D /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675CE1762630728400CFE14D /* Order.swift */; };
 		675CE17A263077C800CFE14D /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675CE179263077C800CFE14D /* AddressView.swift */; };
+		675CE17D26307CAE00CFE14D /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675CE17C26307CAE00CFE14D /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		675CE1722630723A00CFE14D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		675CE1762630728400CFE14D /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		675CE179263077C800CFE14D /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		675CE17C26307CAE00CFE14D /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				675CE1722630723A00CFE14D /* ContentView.swift */,
 				675CE1762630728400CFE14D /* Order.swift */,
 				675CE179263077C800CFE14D /* AddressView.swift */,
+				675CE17C26307CAE00CFE14D /* CheckoutView.swift */,
 				675CE166263060F700CFE14D /* Assets.xcassets */,
 				675CE16B263060F700CFE14D /* Info.plist */,
 				675CE168263060F700CFE14D /* Preview Content */,
@@ -149,6 +152,7 @@
 			files = (
 				675CE165263060F600CFE14D /* LearningView.swift in Sources */,
 				675CE163263060F600CFE14D /* CupcakeCornerApp.swift in Sources */,
+				675CE17D26307CAE00CFE14D /* CheckoutView.swift in Sources */,
 				675CE1772630728400CFE14D /* Order.swift in Sources */,
 				675CE1732630723A00CFE14D /* ContentView.swift in Sources */,
 				675CE17A263077C800CFE14D /* AddressView.swift in Sources */,
