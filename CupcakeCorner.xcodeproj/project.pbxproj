@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		675CE163263060F600CFE14D /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675CE162263060F600CFE14D /* CupcakeCornerApp.swift */; };
-		675CE165263060F600CFE14D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675CE164263060F600CFE14D /* ContentView.swift */; };
+		675CE165263060F600CFE14D /* LearningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675CE164263060F600CFE14D /* LearningView.swift */; };
 		675CE167263060F700CFE14D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 675CE166263060F700CFE14D /* Assets.xcassets */; };
 		675CE16A263060F700CFE14D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 675CE169263060F700CFE14D /* Preview Assets.xcassets */; };
+		675CE1732630723A00CFE14D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675CE1722630723A00CFE14D /* ContentView.swift */; };
+		675CE1772630728400CFE14D /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675CE1762630728400CFE14D /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		675CE15F263060F600CFE14D /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		675CE162263060F600CFE14D /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
-		675CE164263060F600CFE14D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		675CE164263060F600CFE14D /* LearningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningView.swift; sourceTree = "<group>"; };
 		675CE166263060F700CFE14D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		675CE169263060F700CFE14D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		675CE16B263060F700CFE14D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		675CE1722630723A00CFE14D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		675CE1762630728400CFE14D /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				675CE162263060F600CFE14D /* CupcakeCornerApp.swift */,
-				675CE164263060F600CFE14D /* ContentView.swift */,
+				675CE164263060F600CFE14D /* LearningView.swift */,
+				675CE1722630723A00CFE14D /* ContentView.swift */,
+				675CE1762630728400CFE14D /* Order.swift */,
 				675CE166263060F700CFE14D /* Assets.xcassets */,
 				675CE16B263060F700CFE14D /* Info.plist */,
 				675CE168263060F700CFE14D /* Preview Content */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				675CE165263060F600CFE14D /* ContentView.swift in Sources */,
+				675CE165263060F600CFE14D /* LearningView.swift in Sources */,
 				675CE163263060F600CFE14D /* CupcakeCornerApp.swift in Sources */,
+				675CE1772630728400CFE14D /* Order.swift in Sources */,
+				675CE1732630723A00CFE14D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
